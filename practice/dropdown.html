@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drop-down</title>
+</head>
+<style>
+   nav{
+       box-shadow: 0 0 10px black;
+       padding: 5px;
+   }
+   nav a{
+       color: black;
+       padding: 10px 15px;
+       text-decoration: none;
+       background: palevioletred;
+       font-size: 15px;
+       display: inline-block;
+   }
+   .dropdown-list a{
+       background-color: peru;
+       display: block;
+   }
+
+   .dropdown{
+       display: inline-block;
+   }
+   .dropdown-list{
+       position: absolute;
+       padding: 5px;
+       width: 180px;
+       margin-top: 3px;
+       display: none;
+       color: white;
+   }
+    .dropdown-lsit a{
+        display: block;
+    }
+    nav a:hover{
+        background-image: linear-gradient(45 deg red blue black);
+        box-shadow: 0 0 5px black;
+        color: white;
+    }
+.dropdown:hover .dropdown-list{
+    display: block;
+    text-align: center;
+}
+
+</style>
+<body>
+    <nav>
+      <a href="">Home</a>
+      <a href="">Service</a>
+      <a href="">Pages</a>
+      <div class="dropdown">
+          <a href="">Item</a>
+
+      <div class="dropdown-list">
+          <a href="">Item1</a>
+          <a href="">Item2</a>
+          <a href="">Item3</a>
+      </div>
+    </div>
+    </nav>
+
+</body>
+</html>

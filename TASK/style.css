@@ -1,0 +1,107 @@
+.page-title{
+    background: turquoise;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.918);
+    font-variant: small-caps;
+    font-size: 80px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu{
+    background: rgb(22, 235, 188);
+    text-align: center;
+}
+
+.menu-ul{
+     margin: 0;
+     padding: 0;
+     display: inline;
+}
+
+.menu-ul li{
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-ul li:hover{
+    background: rgba(238, 130, 238, 0.658);
+    transform: scale(1.1);
+}
+
+.search-box{
+    border: 1px solid white;
+    background: white;
+    border-radius: 50px;
+    width: max-content;
+    display: inline-block;
+    margin: 8px;
+}
+
+.search-box:hover{
+    box-shadow: 0 0 10px 2px #5b8c5a;
+    border: 1px solid #5b8c5a;
+}
+
+.serch-input{
+    width: 250px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    margin: 15px 0 0 10px;
+}
+
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.container{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
+
+.Categories{
+    width: max-content;
+    margin: 25px;
+    border: solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+
+.Categories :hover{
+    box-shadow: 0 0 10px 3px #184d47;
+}
+
+.item-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+
+.image-title{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+div{
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 20px;
+    border: 5px solid black;
+    width: 300px;
+}
+
+.para1{
+    position: static;
+    left: 400px;
+    font-family: cursive;
+    
+}
+
+.para2{
+    position: relative;
+    right: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.para3{
+    position: absolute;
+    padding: 10px;
+    left: 50px;
+}
+
+.para4{
+    position: fixed;
+    right: 0;
+    top: 80px;
+}
+
+.para5{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}

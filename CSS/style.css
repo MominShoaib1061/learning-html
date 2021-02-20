@@ -1,0 +1,23 @@
+h3{
+    background-color: rgba(51, 180, 250, 0.5);
+}
+
+body{
+    background-image: url(./img/philippe-oursel-ZopoSyTT_GM-unsplash.jpg);
+    background-size: cover;
+}
+
+div{
+    height: 100px;
+}
+
+h2{
+    background-color: #f3f719;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h3{
+    
+}

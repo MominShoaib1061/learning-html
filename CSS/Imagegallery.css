@@ -1,0 +1,22 @@
+.gallery{
+    display: inline-block;
+    border: 5px dashed green;
+    margin: 20px;
+    padding: 20px;
+    color: hotpink;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+section{
+    text-align: center;
+}
+
+.gallery:hover{
+    transform: rotate(-5deg);
+}

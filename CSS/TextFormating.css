@@ -1,0 +1,35 @@
+div{
+    background-color: coral;
+    padding: 10px 25px;
+     margin: 40px;
+     border: 5px solid black;
+     box-shadow: 0 0 10px greenyellow;
+}
+
+.text-align{
+     text-align: center;
+}
+
+.text-decoration{
+    text-decoration: none;
+}
+
+.letter{
+    letter-spacing: 8px;
+}
+
+.line{
+    line-height: 50px;
+}
+
+.textdir{
+    direction: rtl;
+}
+
+.wordspecing{
+    word-spacing: 10px;
+}
+
+#SHOAIB{
+    text-shadow: rgb(12, 148, 233);
+}

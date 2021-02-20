@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(./sea\ view.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

@@ -1,0 +1,145 @@
+nav{
+    box-shadow: 0 0 10px black;
+    padding: 5px;
+    height: 50px;
+}
+
+nav a{
+    color: black;
+    padding: 18px 25px;
+    text-decoration: none;
+    background: teal;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+.dropdownlist a{
+    background-color: orangered;
+    display: block;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdownlist{
+    position: absolute;
+    padding: 5px;
+    width: 180px;
+    margin-top: 3px;
+    display: none;
+}
+
+nav a:hover{
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+.dropdown:hover .dropdownlist{
+    display: block;
+    text-align: center;
+}
+
+.dropdown a:hover{
+    background: black;
+    color: white;
+}
+
+.contactlist a{
+    background-color: orangered;
+    display: block;
+}
+
+.contact{
+    display: inline-block;
+}
+
+.contactlist{
+    position: absolute;
+    padding: 5px;
+    width: 180px;
+    margin-top: 3px;
+    display: none;
+}
+
+nav a:hover{
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+.contact:hover .contactlist{
+    display: block;
+    text-align: center;
+}
+
+.contactlist a:hover{
+    background: black;
+    color: white;
+}
+
+
+.Aboutlist a{
+    background-color: orangered;
+    display: block;
+}
+
+.About{
+    display: inline-block;
+}
+
+.Aboutlist{
+    position: absolute;
+    padding: 5px;
+    width: 180px;
+    margin-top: 3px;
+    display: none;
+}
+
+nav a:hover{
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+.About:hover .Aboutlist{
+    display: block;
+    text-align: center;
+}
+
+.Aboutlist a:hover{
+    background: black;
+    color: white;
+}
+
+.pageslist a{
+    background-color: orangered;
+    display: block;
+}
+
+.page{
+    display: inline-block;
+}
+
+.pageslist{
+    position: absolute;
+    padding: 5px;
+    width: 180px;
+    margin-top: 3px;
+    display: none;
+}
+
+nav a:hover{
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+.page:hover .pageslist{
+    display: block;
+    text-align: center;
+}
+
+.pageslist a:hover{
+    background: black;
+    color: white;
+}

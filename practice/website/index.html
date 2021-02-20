@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBDEV CREATION</title>
+</head>
+<style>
+    body{
+        background: url(./sea\ view.jpg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .navbar{
+        height: 60px;
+        background: rgba(154, 192, 248, 0.568)
+    }
+
+    .logo{
+        width: 140px;
+        height: auto;
+        padding-bottom: 09px;
+    }
+
+    .navbar ul{
+        float: right;
+        margin-right: 20px;
+    }
+
+    .navbar ul li{
+        list-style: none;
+        margin: 0 8px;
+        display: inline-block;
+        line-height: 30px;
+    }
+
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 6px 13px;
+        font-family: cursive;
+    }
+
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+        background: springgreen;
+        border-radius: 2px 8px;
+    }
+
+    .center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: sans-serif;
+        user-select: none;
+    }
+
+    .buttons{
+        position: absolute;
+        bottom: 20%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        font-family: fantasy;
+        user-select: none;
+    }
+
+    .center h1{
+        font-size: 55px;
+        width: 900px;
+        text-align: center;
+    }
+
+    .center h2{
+        font-size: 40px;
+        width: 800px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .buttons button{
+        height: 50px;
+        width: 150px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background: red;
+        border: 2px solid #cc0000;
+        outline: none;
+        cursor: pointer;
+        border-radius: 25px;
+        transition: .5s;
+    }
+
+    .buttons .btn{
+        margin-left: 25px;
+    }
+
+    .buttons button:hover{
+        background: #00cc3d;
+    }
+
+    .foot{
+    background: plum;
+    padding: 15px;
+    text-align: center;
+}
+</style>
+
+<body>
+<div class="wrapper">
+    <nav class="navbar">
+      <img  class="logo" src="./images.png" alt="logo">
+      <ul>
+        <li><a class="active" href="">HOME</a></li>
+        <li><a href="">SERVICES</a></li>
+        <li><a href="">CONATACT</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">FEEDBACK</a></li>
+      </ul>
+    </nav>
+</div>
+
+<div class="center">
+        <h1> <b> <span style="color: orangered;">WELCOME</span> <span style="color: lightseagreen;">TO</span> <span style="color: rgba(6, 144, 236, 0.658);">CASCADE</span></b></h1>
+        <h2> <i> <span style="color: lawngreen;">CREATE</span> <span style="color: rgba(221, 40, 238, 0.808);">SOMETHING</span> <span style="color: rgba(170, 3, 3, 0.973);">NEW</span> </i></h2>
+</div>
+
+<div class="buttons">
+        <button><u> Explore More </u></button>
+        <button class="btn"> <u> Follow Me </u></button>
+</div>
+
+<footer class="foot">
+    <h3> Copyright &copy; </h3>
+    <h3> All Right Reserved &reg;</h3>
+    <h3> Develop by <b>Pickupbizz</b></h3>
+</footer>
+
+</body>
+</html>

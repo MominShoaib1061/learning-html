@@ -1,0 +1,77 @@
+body{
+    background-image: url(./img/AUDI\ 3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+ /* -----Styling nav------- */
+nav{
+    padding: 18px 25px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+/* -------Styling Anchor */
+nav a{
+    text-decoration: none;
+    padding: 18px 25px;
+    color: white;
+}
+
+a:hover{
+    color: black;
+    background: white;
+    border-radius: 10px;
+
+}
+/* ------styling Heading ------*/
+h2{
+    background-color: rgb(152, 210, 248);
+    width: 250px;
+    padding: 18px;
+    border-radius: 15px;
+    border-bottom: 5px double black;
+}
+
+div{
+    margin-top: 10%;
+}
+
+/* ---- Styling para 1-------*/
+
+.para1{
+    background-image: url(./img/maintanance.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(174, 122, 233);
+    padding: 18px;
+    color: rgb(127, 218, 7);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 black;
+    text-align: justify;
+    
+}
+
+.para2{
+    background-image: url(./img/software\ development.png);
+    background-repeat: no-repeat;
+    padding: 18px 25px;
+    border-radius: 60px 5px;
+    text-align: justify;
+    background-color: rgb(240, 109, 240);
+    background-position: center;
+}
+
+h2{
+    /* margin-Top */
+    margin: 25px;
+
+    /* margin-right */
+    margin: 50px;
+
+    /* margin-bottom */
+    margin: 75px;
+
+    /* margin-left */
+    margin: 100px;
+}
+
